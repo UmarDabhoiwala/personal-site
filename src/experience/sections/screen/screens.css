@@ -1,0 +1,26 @@
+.screen-container {
+  overflow: hidden;
+  overflow-y: scroll;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 100px;
+}
+
+.screen-container h1 {
+  font-size: 10rem;
+}
+
+.screen-container p {
+  margin-top: 5rem;
+  font-size: 6.6rem;
+}
+
+@media only screen and (max-width: 599px) {
+  .screen-container h1 {
+    font-size: 16rem;
+  }
+
+  .screen-container p {
+    font-size: 10rem;
+  }
+}
