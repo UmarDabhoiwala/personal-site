@@ -488,7 +488,8 @@ export const Cockpit = () => {
                       transform
                       wrapperClass="leftButton"
                       distanceFactor={1}
-                      position={[-0.36, 0.0289, -0.78]}
+                    //   position={[-0.36, 0.0289, -0.78]}
+                      position={[-0.15, 0.0149, -0.38]}
                       rotation-y={0.831}
                       rotation-x={0}
                       rotation-z={-0.08}
@@ -593,7 +594,8 @@ export const Cockpit = () => {
                       transform
                       wrapperClass="leftButton"
                       distanceFactor={1.5}
-                      position={[-0.15, -0.19, -2]}
+                    //   position={[-0.15, -0.19, -2]}
+                      position={[-0.135, -0.2, -1.68]}
                       rotation-y={0.51}
                       rotation-x={0}
                       rotation-z={-0.038}
@@ -696,7 +698,7 @@ export const Cockpit = () => {
                       transform
                       wrapperClass="leftButton"
                       distanceFactor={1.2}
-                      position={[-1, -0.36, -1.85]}
+                      position={[-0.5, -0.19, -0.85]}
                       rotation-y={-0.0351}
                       rotation-x={0}
                       rotation-z={0.038}
