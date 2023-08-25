@@ -38,7 +38,7 @@ const ScrollSections = () => {
         <p>
             Beyond academics and work, I am interested in entrepreneurship and startups, having participated the HEX Singapore program, 
             a two-week immersive program for idea-stage founders. 
-            I am also highly interested in in exploring the newest technologies and methodologies aiming to always eager to learn and innovate.
+            I am also highly interested in exploring the newest technologies and methodologies aiming to always learn and innovate.
         </p>
       </Section>
       <Section classNames="cockpit"></Section>
