@@ -43,7 +43,7 @@ const Experience = (props) => {
   return (
     <div className="container">
       <Canvas flat gl={{ preserveDrawingBuffer: true }}>
-        <ScrollControls enabled={startScroll} pages={6} damping={0.61}>
+        <ScrollControls enabled={startScroll} pages={7} damping={0.61}>
           <SheetProvider sheet={props.sheet}>
             <Scene />
             <Scroll html>

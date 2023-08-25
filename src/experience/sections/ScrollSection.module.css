@@ -1,7 +1,7 @@
 .section {
   width: 100vw;
   height: 120vh;
-  min-height: 620px;
+  min-height: 800px;
 }
 
 .about {
@@ -27,7 +27,7 @@
   .section {
     width: 100vw;
     height: 120vh;
-    min-height: 620px;
+    min-height: 800px;
   }
 
   .about {
@@ -47,7 +47,7 @@
     min-height: 720px; */
 
     height: 170vh;
-    max-height: 1200px;
+    /* max-height: 1200px; */
   }
   .about {
     /* height: 140vh;

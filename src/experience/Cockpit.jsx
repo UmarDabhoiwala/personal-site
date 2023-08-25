@@ -247,9 +247,9 @@ export const Cockpit = () => {
   };
 
   const Links = {
-    emailLink: "#",
-    githubLink: "#",
-    resumeLink: "#",
+    emailLink: "mailto:Dabhoiwala.umar1@gmail.com",
+    githubLink: "https://github.com/UmarDabhoiwala",
+    resumeLink: "/UmarResume.pdf",
   };
 
   return (
@@ -455,9 +455,11 @@ export const Cockpit = () => {
                         href={Links.emailLink}
                         className="button gitHub"
                         ref={emailLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         E-Mail
-                      </a>
+                        </a>
                     </Html>
                   )}
                   {matches.medium && (
@@ -474,9 +476,11 @@ export const Cockpit = () => {
                         href={Links.emailLink}
                         className="button gitHub"
                         ref={emailLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         E-Mail
-                      </a>{" "}
+                    </a>
                     </Html>
                   )}
                   {matches.large && (
@@ -493,9 +497,11 @@ export const Cockpit = () => {
                         href={Links.emailLink}
                         className="button gitHub"
                         ref={emailLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         E-Mail
-                      </a>{" "}
+                        </a>
                     </Html>
                   )}
                 </>
@@ -553,9 +559,12 @@ export const Cockpit = () => {
                         href={Links.resumeLink}
                         className="button gitHub"
                         ref={resumeLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         Resume
-                      </a>
+                        </a>
+
                     </Html>
                   )}
                   {matches.medium && (
@@ -572,9 +581,11 @@ export const Cockpit = () => {
                         href={Links.resumeLink}
                         className="button gitHub"
                         ref={resumeLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         Resume
-                      </a>
+                        </a>
                     </Html>
                   )}
                   {matches.large && (
@@ -591,9 +602,11 @@ export const Cockpit = () => {
                         href={Links.resumeLink}
                         className="button gitHub"
                         ref={resumeLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         Resume
-                      </a>
+                        </a>
                     </Html>
                   )}
                 </>
@@ -650,9 +663,11 @@ export const Cockpit = () => {
                         href={Links.githubLink}
                         className="button gitHub"
                         ref={githubLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         GitHub
-                      </a>
+                        </a>
                     </Html>
                   )}
                   {matches.medium && (
@@ -669,9 +684,11 @@ export const Cockpit = () => {
                         href={Links.githubLink}
                         className="button gitHub"
                         ref={githubLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         GitHub
-                      </a>
+                        </a>
                     </Html>
                   )}
                   {matches.large && (
@@ -688,9 +705,11 @@ export const Cockpit = () => {
                         href={Links.githubLink}
                         className="button gitHub"
                         ref={githubLinkRef}
-                      >
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         GitHub
-                      </a>
+                        </a>
                     </Html>
                   )}
                 </>
